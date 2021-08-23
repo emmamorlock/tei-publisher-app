@@ -1751,7 +1751,7 @@
           in eXide. Quick investigation of the TEI encoding will reveal that dateline
             resides in its eponymic tag
           <tag>dateline</tag>
-          wchich is nested in the
+          which is nested in the
           <tag>opener</tag>
           part of the document, while page labels are encoded with
           <tag>pb</tag>
