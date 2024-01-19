@@ -226,7 +226,7 @@ declare function pages:toc-div($node, $model as map(*), $target as xs:string?,
                 if ($headings/*) then
                     $pm-config:web-transform($headings, map { "mode": "toc", "root": $div }, $model?config?odd)
                 else
-                    $headings/string()
+                    $headings
             let $root := (
                 if ($view = "page") then
                     ($div/*[1][self::tei:pb], $div/preceding::tei:pb[1])[1]
